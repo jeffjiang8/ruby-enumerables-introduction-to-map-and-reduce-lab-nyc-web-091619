@@ -6,5 +6,5 @@ def map_to_negativize (array){
     neg_array.push( -1 * array[i])
     i += 1
   end
-  neg_array
+  return neg_array
 }
