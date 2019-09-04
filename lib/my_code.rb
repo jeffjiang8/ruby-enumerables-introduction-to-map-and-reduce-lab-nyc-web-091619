@@ -18,3 +18,23 @@ def map_to_no_change (array)
   end
   return new_array
 end
+
+def map_to_double (array)
+  double_array = []
+  i = 0 
+  while i < array.length do 
+  double_array << 2 * array[i]
+  i += 1
+  end
+return double_array
+end
+
+def map_to_square (array)
+  sqr_array = []
+  i = 0 
+  while i < array.length do 
+    sqr_array << array[i]**2 
+    i += 1 
+  end
+  return sqr_array
+end
