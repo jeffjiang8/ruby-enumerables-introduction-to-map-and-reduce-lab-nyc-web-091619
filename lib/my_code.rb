@@ -39,7 +39,7 @@ def map_to_square (array)
   return sqr_array
 end
 
-def reduce_to_total (arry, starting_point)
+def reduce_to_total (array, starting_point)
   new_array = []
   starting_point = 0 
   i = 0 
