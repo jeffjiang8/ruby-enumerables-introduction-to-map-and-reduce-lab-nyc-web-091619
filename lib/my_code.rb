@@ -48,4 +48,8 @@ def reduce_to_total (array, starting_point = 0)
   end
   return new_array
 end 
+
+def reduce_to_true (array)
+  while i < array.length do
+    if 
   
