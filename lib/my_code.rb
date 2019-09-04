@@ -49,7 +49,7 @@ def reduce_to_total (array, starting_point = 0)
   return new_array
 end 
 
-def reduce_to_true (array)
+def reduce_to_all_true (array)
   i = 0 
   while i < array.length do
     return false if !array[i]
