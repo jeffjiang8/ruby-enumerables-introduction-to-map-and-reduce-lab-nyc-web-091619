@@ -38,3 +38,4 @@ def map_to_square (array)
   end
   return sqr_array
 end
+
