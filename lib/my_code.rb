@@ -51,5 +51,5 @@ end
 
 def reduce_to_true (array)
   while i < array.length do
-    if 
+    
   
